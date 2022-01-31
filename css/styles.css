@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+    margin-top: 50px;
+  }
+
+.center {
+    text-align: center;
+    color: #514d80;
+    font-family: 'Open Sans';
+    margin: auto;
+    width: 90%;
+  }
+
+  
+
+#img-logo {
+  width: 60%;
+  max-width: 400px;
+  height: auto;
+}
+
+#quote {
+  padding-top: 50px;
+}
+
+
+@media screen and (min-width: 451px) and (max-width: 899px) {
+  body {
+    margin-top: 30px;
+  }
+
+  #quote {
+    padding-top: 30px;
+  }
+  
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    margin-top: 30px;
+  }
+
+  #quote {
+    padding-top: 30px;
+  }
+  
+}
